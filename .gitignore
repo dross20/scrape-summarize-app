@@ -1,0 +1,6 @@
+fn/.venv/
+scrapepi/.env
+fn/local.settings.json
+scrapepi/Include/
+scrapepi/Lib/
+scrapepi/Scripts/
