@@ -1,0 +1,61 @@
+@use "@picocss/pico/scss/pico" as * with (
+  $theme-color: "indigo",
+  $semantic-root-element: "#root",
+  $enable-semantic-container: true,
+  $enable-classes: true
+);
+
+header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+article {
+    height: fit-content;
+}
+
+.badge {
+    opacity: 0.5;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+  }
+
+.badge.cl {
+    background: green;
+}
+
+.badge.cv {
+    background: rgb(255, 175, 0);
+}
+
+.badge.lg {
+    background: rgba(31, 81, 255);
+}
+
+.badge.ai {
+    background: rgba(255, 0, 0)
+}
+
+.grid {
+    grid-template-columns: 1fr;
+}
+
+@media(min-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+

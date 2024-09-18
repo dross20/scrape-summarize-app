@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/9af9a495-a6da-4651-ae72-9059019e5f2f/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/scrape-summarize-api",
+    "appService.deploySubpath": "."
+}
