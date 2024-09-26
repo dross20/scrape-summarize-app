@@ -8,9 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <header>
         <div class="container">
           <span>
-            <div style={{background: 'inherit', padding: '5px'}}>
-              <img src='/gator.png' style={{height: '6rem', width: '6rem', marginRight: 25}}></img>
-            </div>
+            <img src='/gator.png' style={{height: '6rem', width: '6rem', marginRight: 25}}></img>
             <h2 style={{display: 'inline-block', marginBottom: 0}}>aggreGator</h2>
           </span>
           <span>
