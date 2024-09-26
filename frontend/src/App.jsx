@@ -93,6 +93,12 @@ function App() {
   }
 
   return (
+    <>
+    {data.length == 0 &&
+      <main class="container" aria-busy={true} style={{width: '123px'}}>
+        Loading...
+      </main>
+    }
     <main class="container">
       <div class="grid">
         {data.map(d => (
@@ -105,6 +111,7 @@ function App() {
         ))}
       </div>
     </main>
+    </>
   )
   
 }
